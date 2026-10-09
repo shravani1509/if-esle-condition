@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+int age, voting_eligibility;
+printf("enter age of voter");
+scanf("%d", &voting_eligibility);
+if (age <18)
+{
+printf("candidate are not eligible");
+}
+else 
+{
+printf("candidate are eligible");
+}
+}

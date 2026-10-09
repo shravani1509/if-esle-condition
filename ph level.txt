@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int acidic, basic, neutral, ph;
+
+    printf("enter ph level: ");
+    scanf("%d", &ph);
+    if (ph < 7)
+{ printf("acidic");
+}
+else if (ph = 7)
+{ printf("neutral");
+}
+else
+{ printf("basic");
+}
+}
+

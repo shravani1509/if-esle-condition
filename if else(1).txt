@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{   
+int mark, marks_criteria;
+printf("enter your marks");
+scanf("%d",&mark);
+if (mark <15)
+{
+printf("sorry but you are fail");
+}
+else
+{
+printf("congrats you are pass");
+}
+}                                                                                                                                        #
